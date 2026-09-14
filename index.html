@@ -352,12 +352,12 @@ body.no-audio .music-fab,body.no-audio .btn-music{display:none}
     </div>
     <div class="gift-reveal" id="giftReveal" hidden>
       <div class="gr-glow" aria-hidden="true"></div>
-      <figure class="gift-frame"><img alt="今年的礼物：足金小蛮腰吊坠" data-bimg="gift"></figure>
+      <figure class="gift-frame"><img alt="今年的礼物：羊毛围巾" data-bimg="gift"></figure>
       <div class="gift-meta">
         <span class="gift-tag">今年的礼物</span>
-        <h3>足金小蛮腰吊坠</h3>
-        <p class="gift-slogan">环环相扣 · 幸福圆满</p>
-        <p class="gift-desc">金灿灿的小坠子，一环扣着一环，就像我们一家人紧紧相连。愿你戴上它的每一天，都被好运与福气温柔环绕。</p>
+        <h3>羊毛围巾 · 小满香槟色</h3>
+        <p class="gift-slogan">温暖相拥 · 岁岁常暖</p>
+        <p class="gift-desc">20支100%绵羊毛织成的香槟色围巾，柔柔软软，就像把拥抱随身带着。愿妈妈每个冬天都不冷，被温暖与爱温柔包裹。</p>
       </div>
     </div>
   </div>
@@ -378,7 +378,7 @@ body.no-audio .music-fab,body.no-audio .btn-music{display:none}
 (function(){
   'use strict';
   /* 载入图片资源（数据文件 / 本地兜底） */
-  var FB={hero:'assets/hero-floral.jpg',divider:'assets/divider-floral.jpg',gift:'assets/gift-necklace.jpg'};
+  var FB={hero:'assets/hero-floral.jpg',divider:'assets/divider-floral.jpg',gift:'assets/gift-scarf.jpg'};
   document.querySelectorAll('[data-bimg]').forEach(function(el){
     var k=el.getAttribute('data-bimg');
     el.src=(window.BDAY_IMG&&window.BDAY_IMG[k])||FB[k]||'';
